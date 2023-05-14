@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sum = 0;
+    for(int i=15; i<=35; i++) {
+        if(i%2 != 0) {
+            sum += i;
+        }
+    }
+    cout << "Sum of odd numbers between 15 and 35 is: " << sum << endl;
+    return 0;
+}
